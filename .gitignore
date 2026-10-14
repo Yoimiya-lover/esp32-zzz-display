@@ -1,0 +1,25 @@
+# 本地配置：里面有真实账号和密码，绝对不要提交
+config.h
+
+# Arduino / 编译产物
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.d
+*.o
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*~
